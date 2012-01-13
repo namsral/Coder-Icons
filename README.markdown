@@ -9,7 +9,6 @@ BZIP, CONF, CSS, DATABASE, GZIP, HTML, INI, JAVASCRIPT, JSON, PLAIN, PYTHON, RSS
 
 I've included the original PSD to generate the icons. Make sure you have the [04b-03][0] font in your library when making changes.
 
-!http://github.com/namsral/project/preview.png
 
 Textmate
 --------
@@ -20,13 +19,18 @@ To use the icons in TexMate verion 1.x copy the icons inside the app:
 
 Make sure you first make a backup of TextMate before you overwrite replace the stock icons. I Haven't tried this with version 2.x.
 
+This is what it should look like:
+
+![screenshot][2]
+
 
 License
 -------
 
-You're free to use these icons under the following [CC][1]  license.
+You're free to use these icons under the following [CC Attribution][1]  license.
 
 Copyrigh &copy; 2012 Lars Wiegman
 
 [0]: http://www.dafont.com/04b-03.font
 [1]: http://creativecommons.org/licenses/by/3.0/
+[2]: https://github.com/namsral/Coder-Icons/raw/master/Preview.png "Icon collection preview"
