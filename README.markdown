@@ -17,7 +17,7 @@ To use the icons in TexMate verion 1.x copy the icons inside the app:
 
 	TextMate.app/Contents/Resources/File\ Icons/
 
-Make sure you first make a backup of TextMate before you overwrite replace the stock icons. I Haven't tried this with version 2.x.
+Make sure you first make a backup of TextMate before you replace the stock icons. I Haven't tried this with version 2.x.
 
 This is what it should look like:
 
