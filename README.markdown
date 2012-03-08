@@ -13,13 +13,15 @@ I've included the original PSD to generate the icons. Make sure you have the [04
 Textmate
 --------
 
-To use the icons in TexMate verion 1.x copy the icons inside the app:
+To use the icons in TexMate verion 1.x copy both the icons and Bindings.plist file to the app bundle. The Bindings.plist is for TextMate to bind the icons to the appropriate  file extensions:
 
-	TextMate.app/Contents/Resources/File\ Icons/
+	$ cp icons/*.png extra/Bindings.plist TextMate.app/Contents/Resources/File\ Icons/
+
+
 
 Make sure you first make a backup of TextMate before you replace the stock icons. I Haven't tried this with version 2.x.
 
-This is what it should look like:
+This is what it should look like using the [MissingDrawer][3] plugin:
 
 ![screenshot][2]
 
@@ -34,3 +36,4 @@ Copyrigh &copy; 2012 Lars Wiegman
 [0]: http://www.dafont.com/04b-03.font
 [1]: http://creativecommons.org/licenses/by/3.0/
 [2]: https://github.com/namsral/Coder-Icons/raw/master/Preview.png "Icon collection preview"
+[3]: https://github.com/jezdez/textmate-missingdrawer "TextMate MissingDrawer Plugin"
